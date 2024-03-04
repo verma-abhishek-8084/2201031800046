@@ -1,0 +1,231 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+        background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url('img/as.jpg');
+        background-size: cover;
+}
+.logo img{
+    border-radius: 300px;
+    height: 50px;
+    width: 200px;
+}
+
+nav{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.menu a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 0px 10px;
+    color: white;
+}
+.search{
+    position: relative;
+}
+.search input{
+    padding: 10px 10px;
+    border-radius: 15px;
+    border: 1px solid grey;
+    outline: none;   
+}
+#icon{
+    position: absolute;
+    right: 0;
+    padding: 10px 20px;
+}
+.container{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+}
+button{
+    width: 130px;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 50px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    box-shadow: 5px 4px 9px rgb(206, 77, 77);
+    border: 1px solid rgb(236, 231, 231);
+    }
+   .left button{
+    margin-left: 5px;
+    }
+    .left button:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 9px 9px 13px rgb(131, 240, 7);
+    }
+    
+    .left h2{
+        margin-top: 250px;
+        width: 500px;
+        font-size: medium;
+        color: white;
+    }
+
+.celestial_bodies{
+    margin-left: 8rem;
+    margin-top: 5rem;
+}
+.celestial_bodies div{
+    margin-top:2px;
+    width: 200px;
+    height: 50px;
+
+    border: 2px solid rgb(56, 54, 54);
+    color: #837a7a;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 15px;
+}
+.celestial_bodies div:hover{
+    background-color: green;
+    box-shadow: 8px 9px 10px rgb(230, 17, 52);
+    color: black;
+}
+.box{
+    width: 280px;
+    height: 350px;
+    background-color: rgb(87, 78, 78);
+    border-radius: 5px;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+}
+.box h3{
+    text-align: center;
+    color: whitesmoke;
+    box-shadow: 9x 9px 12px pink;
+}
+.shop-section{
+    background-color: rgb(17, 3, 3);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box-img{
+    height: 280px;
+    background-size: cover;
+}
+.box-content{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+footer{
+    margin-top: 10px; 
+}
+.foot_panel1{
+    height: 50px;
+    background-color:#313333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+
+}
+.foot_panel2{
+    height: 30px;
+    background-color:#3c3e3f;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    display: block;
+    font-size: 0.8rem;
+    margin: 10px;
+    color: #dddddd;
+}
+ul{
+    margin-top: 10px;
+}
+.foot_panel3{
+    background-color:#282a2c;
+    height: 70px;
+    border-top: 0.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot_panel4{
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-size: 0.7rem;
+    text-align: center;
+}
+.foot_option{
+    padding-top: 20px;
+}
+.copyright{
+    padding-top: 5px;
+}
+a .one_btn{
+    background-color:rgb(15, 11, 247);
+    color: white;
+    border: 1px solid black;
+}
+a .two_btn{
+    background-color:rgb(15, 11, 247);
+    color: white;
+    border: 1px solid black;
+    margin-left: 20px;
+}
+
+
+@media (max-width:861px){
+    .logo{
+        width: 100%;
+        text-align: center;
+        font-size: 2.2em;
+        padding-top: 5px;
+    }
+    .search{
+        display: none;
+    }
+    nav{
+        padding: 0 15px;
+    }
+    .menu{
+        width: 100%;
+        text-align: center;
+    }
+    .container{
+        text-align: center;
+        padding: 20px 50px;
+        flex-direction: column-reverse;
+    }
+    .shop-section{
+        padding-top: 10rem;
+    }
+    .left h2{
+        width: 300px;
+        margin-top: 40px;
+    }
+    .celestial_bodies{
+        margin-top: 3rem;
+        margin-left: 2rem;
+    }
+}

@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container_Overview{
+    width: 100vw;
+    height: 150vh;
+    background-color: rgb(163, 167, 165);
+}
+.container_Overview h2{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding-top: 4px;
+    box-shadow: 9px 9px 12px black;
+}
+.h2_class{
+    padding-top: 10px;
+    padding-left: 40%;
+    text-align: center;
+}
+.h3_class{
+    display: flex;
+}
+.container_Overview h3{
+    margin-left: 20px;
+    border: 1px solid black;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    padding-top: 6px;
+    margin: 15px;
+    border-radius: 50px;
+    color: rgb(9, 208, 243);
+    background: linear-gradient(aqua,red,purple);
+    border: none;
+}
+.container_Overview .boxes{
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+}
+.container_Overview .one{
+    display: flex;
+    margin-left: 5px;
+    padding-top: 30px;
+    gap: 2px;
+}
+.container_Overview .boxe img{
+    width: 200px;
+    height: 300px;
+}
+.container_Overview .box1 img{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.container_Overview .one .box1{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.container_Overview .box5 img{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.container_Overview .one .box5{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.container_Overview p{
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 5rem;
+    color:#151616;
+    font-weight: bold;
+}
+@media  (max-width:1054px){
+    .boxe{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container_Overview{
+        width: 100vw;
+        height: 600vh;
+        background-color: rgb(163, 167, 165);
+    }
+    .container_Overview .boxe {
+     padding-left: 70px;
+    }
+    img{
+        border-radius: 20px;
+    }
+    .container_Overview .boxes{
+        margin-top: 15px;
+        border-radius: 20px;
+    }
+    .container_Overview p{
+        width: 300px;
+
+    }
+    .h3_class{
+        padding-left: 20px;
+    }   
+}
+@media (max-width:372px) {
+    .h3_class{
+        display: flex;
+        flex-direction: column;
+    }
+}
